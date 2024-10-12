@@ -1,5 +1,5 @@
 <template>
-  <button :class="`inline-flex items-center justify-center rounded-[4px]  ${additionalClasses}`">
+  <button :class="`inline-flex items-center justify-center rounded ${additionalClasses}`">
     <!-- Render the icon if provided -->
     <component :is="icon" v-if="icon" />
     {{ text }}

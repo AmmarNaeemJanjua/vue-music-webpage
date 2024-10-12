@@ -1,5 +1,5 @@
 <template>
-  <div :class="`rounded-[4px] font-bold ${additionalClasses}`">
+  <div :class="`rounded font-bold ${additionalClasses}`">
     {{ `€${cost}` }}
   </div>
 </template>

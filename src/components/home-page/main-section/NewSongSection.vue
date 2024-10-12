@@ -1,17 +1,22 @@
 <template>
   <div class="sm:pb-[32px] pb-[24px]">
     <div class="flex justify-between">
-      <div class="font-bold sm:text-[18px] text-[13px] sm:leading-[21.98px] leading-[15.87px]">
+      <div
+        class="font-bold sm:text-[18px] text-[13px] text-dark-blue sm:leading-[21.98px] leading-[15.87px]"
+      >
         Hot New Songs
       </div>
       <div class="flex items-center gap-[10px] pb-[12px]">
         <div
-          class="sm:text-[12px] sm:leading-[14.65px] sm:font-bold text-[9px] leading-[10.99px] font-bold"
+          class="text-dark-blue sm:text-[12px] sm:leading-[14.65px] sm:font-bold text-[9px] leading-[10.99px] font-bold"
         >
           SEE MORE
         </div>
-        <Button :icon="ChevronLeftIcon" :additionalClasses="'bg-[#E4E6EB] p-[7px] sm:p-[8px]'" />
-        <Button :icon="ChevronRightIcon" :additionalClasses="'bg-[#E4E6EB] p-[7px] sm:p-[8px]'" />
+        <Button :icon="ChevronLeftIcon" :additionalClasses="'bg-light-grey-1 p-[7px] sm:p-[8px]'" />
+        <Button
+          :icon="ChevronRightIcon"
+          :additionalClasses="'bg-light-grey-1 p-[7px] sm:p-[8px]'"
+        />
       </div>
     </div>
     <div

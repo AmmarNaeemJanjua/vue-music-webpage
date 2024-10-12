@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#f0f2f5] px-5 sm:px-12 md:px-20 lg:px-14 xl:px-44 2xl:px-[11.4%]">
+  <div class="bg-background px-5 sm:px-12 md:px-20 lg:px-14 xl:px-44 2xl:px-[11.4%]">
     <TopSection />
     <MainSection />
   </div>

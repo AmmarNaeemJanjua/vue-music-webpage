@@ -7,7 +7,9 @@
     />
 
     <div class="flex items-center gap-[14px] sm:mb-0 mb-[20px]">
-      <div class="sm:flex items-center gap-2 text-[13px] leading-[15.87px] font-medium hidden">
+      <div
+        class="sm:flex items-center gap-2 text-[13px] leading-[15.87px] font-medium hidden text-dark-blue"
+      >
         Sort<FilterIcon />
       </div>
 

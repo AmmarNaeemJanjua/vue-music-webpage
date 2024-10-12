@@ -9,7 +9,15 @@ export default {
         'druk-wide': ['Druk Wide', 'sans-serif']
       },
       colors: {
-        primary: '#416CFF'
+        primary: '#416CFF',
+        background: '#f0f2f5',
+        'dark-blue': '#071526',
+        'dark-grey': '#121317',
+        'light-grey': '#E6EAF0',
+        'light-grey-1': '#E4E6EB',
+        'grey': '#8B949F',
+        'grey-1': '#47505B',
+        'light-purple': '#416CFF1A'
       }
     }
   },

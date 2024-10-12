@@ -5,7 +5,7 @@
     @click="toggleDropdown"
   >
     <div
-      class="text-[13px] font-bold bg-white border leading-[15.87px] text-primary py-[7px] ps-[20px] pe-[12px] border-primary rounded-[4px] h-[30px] flex justify-between items-center"
+      class="text-[13px] font-bold border leading-[15.87px] text-primary py-[7px] ps-[20px] pe-[12px] border-primary rounded h-[30px] flex justify-between items-center"
     >
       <div>
         {{ selectedOption ? selectedOption : placeholder }}
@@ -14,14 +14,14 @@
     </div>
     <ul
       v-if="isOpen"
-      class="absolute left-0 w-full mt-[10px] py-[10px] bg-white rounded-[4px] max-h-[12.6rem] overflow-y-auto scrollbar-hide z-10 drop-shadow-md"
+      class="absolute left-0 w-full mt-[10px] py-[10px] bg-white rounded max-h-[12.6rem] overflow-y-auto scrollbar-hide z-10 drop-shadow-md"
     >
       <li
         v-for="option in options"
         :key="option.value"
         @click="selectOption(option)"
         :class="[
-          'text-[12px] leading-[14.65px] py-[8px] ps-[20px] pe-[12px] cursor-pointer hover:bg-[#416dff0b] font-medium h-[30px] flex justify-between items-center',
+          'text-[12px] text-dark-blue leading-[14.65px] py-[8px] ps-[20px] pe-[12px] cursor-pointer hover:bg-[#416dff0b] font-medium h-[30px] flex justify-between items-center',
           option.value === selectedValue ? 'bg-[#416CFF1A] text-primary' : ''
         ]"
       >

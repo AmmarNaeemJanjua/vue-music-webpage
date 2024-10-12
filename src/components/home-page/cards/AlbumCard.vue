@@ -16,7 +16,7 @@
       </div>
 
       <div
-        class="absolute inset-0 flex items-center justify-center sm:gap-[18px] gap-[10px] text-white font-bold z-10"
+        class="absolute inset-0 flex items-center justify-center sm:gap-[18px] gap-[10px] z-10"
         v-if="isHovered"
       >
         <Button :icon="HeartIcon" />
@@ -25,18 +25,18 @@
       </div>
     </div>
     <div class="sm:px-[10px] px-[8px] sm:pt-[7px] pt-[8px] sm:pb-[10px] pb-[7px]">
-      <h3 class="text-[#071526] sm:text-[13px] text-[11px] leading-[20px] font-bold">
+      <h3 class="text-dark-blue sm:text-[13px] text-[11px] leading-[20px] font-bold">
         {{ item?.title }}
       </h3>
       <p
-        class="text-[#47505B] sm:text-[12px] text-[9px] sm:leading-[14px] sm:font-medium font-normal sm:pt-[2px]"
+        class="text-grey-1 sm:text-[12px] text-[9px] sm:leading-[14px] sm:font-medium font-normal sm:pt-[2px]"
       >
         {{ item?.subtitle }}
       </p>
       <div class="sm:mt-2 mt-[3px] flex">
         <CostCard
           :cost="item?.cost"
-          :additionalClasses="'bg-[#416CFF1A] sm:leading-[16.25px] leading-[12px] sm:text-[13px] text-[10px] sm:px-[7px] px-[3px] sm:py-[2px] py-[1px]'"
+          :additionalClasses="'bg-light-purple text-dark-blue sm:leading-[16.25px] leading-[12px] sm:text-[13px] text-[10px] sm:px-[7px] px-[3px] sm:py-[2px] py-[1px]'"
         />
       </div>
     </div>

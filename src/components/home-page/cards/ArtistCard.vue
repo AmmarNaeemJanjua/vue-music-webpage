@@ -1,6 +1,6 @@
 <template>
   <div
-    class="sm:max-w-[170px] max-w-[135px] rounded bg-white text-center border border-[#E6EAF0] sm:py-[20px] py-[15px]"
+    class="sm:max-w-[170px] max-w-[135px] rounded bg-white text-center border border-light-grey sm:py-[20px] py-[15px]"
   >
     <div class="relative">
       <img
@@ -14,11 +14,11 @@
     </div>
     <div class="sm:mt-[0.875rem] mt-[12px]">
       <h2
-        class="sm:text-[16px] text-[14px] font-bold sm:leading-[19.54px] leading-[17.09px] sm:pb-[0.1875rem] pb-[1px]"
+        class="text-dark-blue sm:text-[16px] text-[14px] font-bold sm:leading-[19.54px] leading-[17.09px] sm:pb-[0.1875rem] pb-[1px]"
       >
         {{ item?.name }}
       </h2>
-      <p class="text-[#47505B] sm:text-[12px] text-[10px] leading-[16px]">{{ item?.tagline }}</p>
+      <p class="text-grey-1 sm:text-[12px] text-[10px] leading-[16px]">{{ item?.tagline }}</p>
     </div>
     <div>
       <RatingCard class="my-[0.625rem]" :rating="item.rating" />
