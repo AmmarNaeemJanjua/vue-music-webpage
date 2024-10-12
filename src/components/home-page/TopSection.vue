@@ -6,13 +6,18 @@
       EXPLORE <span class="hidden sm:inline">MUSIC</span>
     </p>
     <div class="col-span-12 sm:col-span-4 text-right content-center sm:mb-0 mb-[24px]">
-      <Tab />
+      <Tab v-model="selectedTab" :tabs="tabOptions" />
     </div>
   </div>
 </template>
 
 <script setup>
+import { ref } from 'vue'
 import Tab from '@/components/common/Tab.vue'
-</script>
 
-<style lang="scss" scoped></style>
+const selectedTab = ref('buy')
+const tabOptions = [
+  { label: 'Buy', value: 'buy' },
+  { label: 'Stream', value: 'stream' }
+]
+</script>
