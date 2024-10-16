@@ -1,11 +1,14 @@
 # Music Webpage
 
-This is a responsive music webpage that showcases music tracks, artists, and playlists. It utilizes Vue 3 for building the user interface and Tailwind CSS for styling.
+This is a responsive music webpage that showcases music tracks, artists, and playlists. It utilizes **Vue 3** for building the user interface and **Tailwind CSS** for styling.
 
-## [Screenshots](https://github.com/AmmarNaeemJanjua/music-webpage/tree/main/screenshots)
-```
-screenshots (folder)
-```
+## Screenshots
+
+[View screenshots](https://github.com/AmmarNaeemJanjua/music-webpage/tree/main/screenshots)
+
+## Explore React 18 version
+
+[View repo](https://github.com/AmmarNaeemJanjua/react-music-webpage)
 
 ## Recommended IDE Setup
 
