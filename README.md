@@ -6,9 +6,9 @@ This is a responsive music webpage that showcases music tracks, artists, and pla
 
 [View screenshots](https://github.com/AmmarNaeemJanjua/music-webpage/tree/main/screenshots)
 
-## Explore React 18 version
+<!-- ## Explore React 18 version
 
-[View repo](https://github.com/AmmarNaeemJanjua/react-music-webpage)
+[View repo](https://github.com/AmmarNaeemJanjua/react-music-webpage) -->
 
 ## Recommended IDE Setup
 
