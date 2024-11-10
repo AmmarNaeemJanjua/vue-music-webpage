@@ -17,6 +17,7 @@
         class="rounded object-cover w-full h-full"
         :src="featured[0]?.image"
         :alt="featured[0]?.name"
+        loading="lazy"
       />
       <div
         class="absolute inset-0 rounded text-white flex flex-col justify-end sm:justify-between sm:pl-[29px] pl-[21px] py-5"
@@ -41,7 +42,7 @@
       :key="item.id"
       class="relative sm:h-[220px] h-[160px]"
     >
-      <img class="rounded object-cover w-full h-full" :src="item?.image" :alt="item?.name" />
+      <img class="rounded object-cover w-full h-full" :src="item?.image" :alt="item?.name" loading="lazy"/>
       <div
         class="absolute inset-0 rounded text-white flex flex-col sm:justify-normal justify-end sm:pl-[19px] pl-[21px] py-5"
       >
@@ -72,19 +73,19 @@ const featured = ref([
   {
     id: '1',
     name: 'Name Album',
-    image: '/src/assets/feature_sample_img_1.png',
+    image: '/images/feature_sample_img_1.png',
     artist: 'Kygo'
   },
   {
     id: '2',
     name: 'Name',
-    image: '/src/assets/feature_sample_img_2.png',
+    image: '/images/feature_sample_img_2.png',
     artist: 'Artist 2'
   },
   {
     id: '3',
     name: 'Starboy by The Week...',
-    image: '/src/assets/feature_sample_img_3.png',
+    image: '/images/feature_sample_img_3.png',
     artist: 'Artist 3'
   }
 ])

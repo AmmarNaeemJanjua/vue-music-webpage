@@ -7,6 +7,7 @@
         class="object-cover sm:w-[130px] w-[105px] sm:h-[130px] h-[105px] rounded-full mx-auto"
         :src="item?.image"
         :alt="`${item?.name}`"
+        loading="lazy"
       />
       <BlueCheckIcon
         class="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2"

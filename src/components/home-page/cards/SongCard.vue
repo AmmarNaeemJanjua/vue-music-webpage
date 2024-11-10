@@ -5,6 +5,7 @@
         class="object-cover sm:w-[50px] w-[40px] sm:h-[50px] h-[40px] rounded-s"
         :src="item?.image"
         :alt="item?.trackName"
+        loading="lazy"
       />
       <div
         class="sm:leading-[20px] leading-[10.74px] sm:font-semibold font-normal sm:ps-[20px] ps-[10px]"

@@ -45,7 +45,7 @@ const options = ref([
 const albums = ref([
   {
     id: '1',
-    image: '/src/assets/album_sample_img.jpeg',
+    image: '/images/album_sample_img.jpeg',
     rating: '5.0',
     title: 'The Long Road',
     subtitle: 'Nightrage',
@@ -53,7 +53,7 @@ const albums = ref([
   },
   {
     id: '2',
-    image: '/src/assets/album_sample_img.jpeg',
+    image: '/images/album_sample_img.jpeg',
     rating: '5.0',
     title: 'The Long Road',
     subtitle: 'Nightrage',
@@ -61,7 +61,7 @@ const albums = ref([
   },
   {
     id: '3',
-    image: '/src/assets/album_sample_img.jpeg',
+    image: '/images/album_sample_img.jpeg',
     rating: '5.0',
     title: 'The Long Road',
     subtitle: 'Nightrage',
@@ -69,7 +69,7 @@ const albums = ref([
   },
   {
     id: '4',
-    image: '/src/assets/album_sample_img.jpeg',
+    image: '/images/album_sample_img.jpeg',
     rating: '5.0',
     title: 'The Long Road',
     subtitle: 'Nightrage',
@@ -77,7 +77,7 @@ const albums = ref([
   },
   {
     id: '5',
-    image: '/src/assets/album_sample_img.jpeg',
+    image: '/images/album_sample_img.jpeg',
     rating: '5.0',
     title: 'The Long Road',
     subtitle: 'Nightrage',
@@ -85,7 +85,7 @@ const albums = ref([
   },
   {
     id: '6',
-    image: '/src/assets/album_sample_img.jpeg',
+    image: '/images/album_sample_img.jpeg',
     rating: '5.0',
     title: 'The Long Road',
     subtitle: 'Nightrage',
@@ -95,63 +95,63 @@ const albums = ref([
 const songs = ref([
   {
     id: '1',
-    image: '/src/assets/song_sample_img.jpeg',
+    image: '/images/song_sample_img.jpeg',
     trackName: 'Track Name',
     artistName: 'Artist Name',
     price: '2.66'
   },
   {
     id: '2',
-    image: '/src/assets/song_sample_img.jpeg',
+    image: '/images/song_sample_img.jpeg',
     trackName: 'Track Name',
     artistName: 'Artist Name',
     price: '2.66'
   },
   {
     id: '3',
-    image: '/src/assets/song_sample_img.jpeg',
+    image: '/images/song_sample_img.jpeg',
     trackName: 'Track Name',
     artistName: 'Artist Name',
     price: '2.66'
   },
   {
     id: '4',
-    image: '/src/assets/song_sample_img.jpeg',
+    image: '/images/song_sample_img.jpeg',
     trackName: 'Track Name',
     artistName: 'Artist Name',
     price: '2.66'
   },
   {
     id: '5',
-    image: '/src/assets/song_sample_img.jpeg',
+    image: '/images/song_sample_img.jpeg',
     trackName: 'Track Name',
     artistName: 'Artist Name',
     price: '2.66'
   },
   {
     id: '6',
-    image: '/src/assets/song_sample_img.jpeg',
+    image: '/images/song_sample_img.jpeg',
     trackName: 'Track Name',
     artistName: 'Artist Name',
     price: '2.66'
   },
   {
     id: '7',
-    image: '/src/assets/song_sample_img.jpeg',
+    image: '/images/song_sample_img.jpeg',
     trackName: 'Track Name',
     artistName: 'Artist Name',
     price: '2.66'
   },
   {
     id: '8',
-    image: '/src/assets/song_sample_img.jpeg',
+    image: '/images/song_sample_img.jpeg',
     trackName: 'Track Name',
     artistName: 'Artist Name',
     price: '2.66'
   },
   {
     id: '9',
-    image: '/src/assets/song_sample_img.jpeg',
+    image: '/images/song_sample_img.jpeg',
     trackName: 'Track Name',
     artistName: 'Artist Name',
     price: '2.66'
@@ -160,7 +160,7 @@ const songs = ref([
 const artists = ref([
   {
     id: '1',
-    image: '/src/assets/artist_sample_img.jpeg',
+    image: '/images/artist_sample_img.jpeg',
     name: 'Jane Cooper',
     tagline: '#Singer, Producer',
     rating: '5.0',
@@ -168,7 +168,7 @@ const artists = ref([
   },
   {
     id: '2',
-    image: '/src/assets/artist_sample_img.jpeg',
+    image: '/images/artist_sample_img.jpeg',
     name: 'Jane Cooper',
     tagline: '#Singer, Producer',
     rating: '5.0',
@@ -176,7 +176,7 @@ const artists = ref([
   },
   {
     id: '3',
-    image: '/src/assets/artist_sample_img.jpeg',
+    image: '/images/artist_sample_img.jpeg',
     name: 'Jane Cooper',
     tagline: '#Singer, Producer',
     rating: '5.0',
@@ -184,7 +184,7 @@ const artists = ref([
   },
   {
     id: '4',
-    image: '/src/assets/artist_sample_img.jpeg',
+    image: '/images/artist_sample_img.jpeg',
     name: 'Jane Cooper',
     tagline: '#Singer, Producer',
     rating: '5.0',
@@ -192,7 +192,7 @@ const artists = ref([
   },
   {
     id: '5',
-    image: '/src/assets/artist_sample_img.jpeg',
+    image: '/images/artist_sample_img.jpeg',
     name: 'Jane Cooper',
     tagline: '#Singer, Producer',
     rating: '5.0',
@@ -200,7 +200,7 @@ const artists = ref([
   },
   {
     id: '6',
-    image: '/src/assets/artist_sample_img.jpeg',
+    image: '/images/artist_sample_img.jpeg',
     name: 'Jane Cooper',
     tagline: '#Singer, Producer',
     rating: '5.0',
